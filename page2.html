@@ -24,83 +24,101 @@
             <li><a href="page5.html">About Me</a></li>
         </ul>
     </nav>
-<div>
+
     <h1>The Effect of Ocean Pollution in Myrtle Beach</h1>
-    <article>
-        <h2>Myrtle Beach...</h2>
-    <br>
-        Myrtle Beach was claimed as one of the worst swimming areas in 2020. This is because the water on 70 out of 82 days was tested and Myrtle Beach exceeded the EPA fecal contamination standard, meaning 85% of tourist or beach goers swimming in the water were likely to get sick. The main affect of pollution is from stormwater runoff because when it rains, water runs off streets picking up pollutants and pesticides and then drains into nearby streams, eventually making its way to the ocean. 
-    </article>
 
-   
-    <article>
-        <h2>Important!</h2>
-        <br>
-        If you are visiting Myrtle Beach, here is an important note to take away from the information above. When walking along the beach or getting ready to take a swim, stray away from areas close or next to stormwater drains. The photos below are an example of what they look like. These drains contain sewage runoff and could potentially affect your health if you were to swim close to them. They also can create a small body of water around them which could be hard to catch if it reaches a certain width. 
-    </article>
-</div>
-
-<!--
-    <div>
-    <img src="images/sewagerunoff1.jpeg" alt="photo1" id="photo1">
-    <img src="images/sewage2.jpeg" alt="photo2" id="photo2">
-    <img src="images/sewage3.jpeg" alt="photo3" id="photo3">
+    <div id="mainContent">
+        <div id="col1" class="column">
+            <article>
+                <h2>Myrtle Beach</h2>
+            <br>
+                Myrtle Beach was claimed as one of the worst swimming areas in 2020. This is because the water on 70 out of 82 days was tested and Myrtle Beach exceeded the EPA fecal contamination standard, meaning 85% of tourist or beach goers swimming in the water were likely to get sick. The main affect of pollution is from stormwater runoff because water runs off streets picking up pollutants and pesticides which drains into nearby streams, eventually making its way to the ocean. 
+            </article>
+            
+        </div>
     </div>
--->
 
-<!--
+    <div id="otherContent">
+        <div id="col2" class="column">
+            <article>
+                <h2>Important!</h2>
+                <br>
+                If you are visiting Myrtle Beach, here is an important note to take away from the information above. When walking along the beach or getting ready to take a swim, stray away from areas close or next to stormwater drains. These drains contain sewage runoff and could potentially affect your health if you were to swim close to them. They also can create a small body of water around them which could be hard to catch if it reaches a certain width. 
+            </article>
+        </div>
+
+    </div>
+
     <footer>
         <h5>Copyright © 2023 Clean Waves. Author: Caroline Stokes. All rights reserved. </h5>
     </footer>
--->
+
 </body>
 
+
+
 <style>
-    a {
+a {
     background-color: rgb(106, 106, 228);
     font-size: 20px;
 
 }
+
 body {
-    background-color: #dfd0ff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.432)), url("images/myrtle1.jpeg"); 
+    background-color: #cccccc;
+    opacity: 10;
     
 }
+
+#col1 {
+    padding-top: 25px;
+    height: 50px;
+    
+    width: 50%;
+    margin: 0 auto;}
+
+#col2 {
+    padding-top: 25px;
+    width: 50%;
+    margin: 0 auto;}
+
+.column {
+    width: 100%;
+    height: 700px;
+    float: left;
+    }
+    
 h1 {
-    background-color: #dfd0ff;
-    padding-top: 60px;
+  
+    padding-top: 20px;
     text-align: center;
-    color: black;
+    color: rgb(0, 27, 177);
     font-size: 40px;
     
 
 }
 h2 {
-    color: rgb(106, 106, 228);
-    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 27, 177);
+    font-size: 27px;
     font: bold;
-}
-
-p, article {
-  width: 500px;
-  height: 550px;
-  background-color: white;
-  border: 15px solid rgb(106, 106, 228);
-  padding: 50px;
-  margin: 40px;
-  float: left;
-  color:  rgb(106, 106, 228);
-  font-size: 18px;
-  text-align: center;
-  line-height: .8cm;
-  font: bold;
+    line-height: .8cm;
+    border: 2px solid rgb(0, 27, 177);
+    margin: 5px;
+    padding: 7px;
+    
+    
 
 }
-
-
-
- 
-
-
+article {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: rgb(0, 27, 177);
+    text-align: center;
+    
+}
 
 </style>
 </html>

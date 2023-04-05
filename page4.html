@@ -26,42 +26,47 @@
     </nav>
     
     <div>
+        <h1>Take Action!</h1>
         <h3>Volunteering Schedule:</h3>
-        <p>Monday-Friday 4pm-6pm</p>
-        <p>Saturday-Sunday 1pm-2:30pm</p>
+        <p>- Monday-Friday 4pm-6pm</p>
+        <p>- Saturday-Sunday 1pm-2:30pm</p>
         <br> 
         <br>
-        <h3>Meeting Locations</h3>
-        <p>Monday-Friday at <a href="https://www.google.com/maps/place/82nd+Ave+N,+Myrtle+Beach,+SC+29572/@33.7480917,-78.8095714,17z/data=!3m1!4b1!4m6!3m5!1s0x890065c408c071f7:0x2cb8da24159f3a5a!8m2!3d33.7480917!4d-78.8095714!16s%2Fg%2F1tf_1yff">82nd Ave N, Myrtle Beach, SC 29572</a></p>
-        <p>Saturday-Sunday at <a href="https://www.google.com/maps/place/36th+Ave+N,+Myrtle+Beach,+SC+29577/@33.7149108,-78.8621961,16.32z/data=!4m6!3m5!1s0x890068bfe0bafe2b:0x8c61f80bed494092!8m2!3d33.7152547!4d-78.8596327!16s%2Fg%2F1tflyrl1">36th Ave N, Myrtle Beach, SC 29572</a></p>
+        <h3>Meeting Locations:</h3>
+        <p>- Monday-Friday at <a href="https://www.google.com/maps/place/82nd+Ave+N,+Myrtle+Beach,+SC+29572/@33.7480917,-78.8095714,17z/data=!3m1!4b1!4m6!3m5!1s0x890065c408c071f7:0x2cb8da24159f3a5a!8m2!3d33.7480917!4d-78.8095714!16s%2Fg%2F1tf_1yff">82nd Ave N, Myrtle Beach, SC 29572</a></p>
+        <p>- Saturday-Sunday at <a href="https://www.google.com/maps/place/36th+Ave+N,+Myrtle+Beach,+SC+29577/@33.7149108,-78.8621961,16.32z/data=!4m6!3m5!1s0x890068bfe0bafe2b:0x8c61f80bed494092!8m2!3d33.7152547!4d-78.8596327!16s%2Fg%2F1tflyrl1">36th Ave N, Myrtle Beach, SC 29572</a></p>
     </div>
     
-    <form class="form">
+    
+    <div class="form">
         <br>
+        <br>
+        <h4>Sign Up Form</h4>
         <br>
         <form action="review_page.php">
-            <h4>Sign Up Form</h4>
             <label for="fname">Full name:</label>
             <input type="text" id="fname" name="firstname" placeholder="Name...">
             <label for="email">Email:</label>
-            <input type="text" id="review" name="review box" placeholder="Email...">
+            <input type="text" id="email" name="review box" placeholder="Email...">
             <label for="phonenumber">Phone Number:</label>
-            <input type="text" id="review" name="review box" placeholder="xxx-xxx-xxxx">
+            <input type="text" id="phonenumber" name="review box" placeholder="xxx-xxx-xxxx">
             <label for="availability">Availability:</label>
             <input type="text" id="review" name="review box" placeholder="Preferred Days"> 
             <button>Submit</button>
         </form>
-
+    </div>
     <p>
+        <br>
+        <br>
         <h4>You will receive an email from us after you have filled out the form. Please feel free to reach out with any questions by emailing us at <u>cleanwaves@gmail.com</u></h4>
     </p>
 
 
-<!--
+
 <footer>
         <h5>Copyright © 2023 Clean Waves. Author: Caroline Stokes. All rights reserved. </h5>
     </footer>
--->
+
     
 
 </body>
@@ -72,9 +77,53 @@ body{
     color: black;
 
 }
-p, div, form {
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(0, 27, 177);
+    font-size: 40px;
+}
+h3 {
+    padding-top: 30px;
+    text-align: left;
+    color: rgb(0, 27, 177);
+    font-size: 30px;
     padding-left: 10px;
 }
+
+p, h4 {
+    font-size: 20px;
+    color: rgb(0, 27, 177);
+    padding-left: 10px;
+
+}
+
+h4 {
+    font: bold;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(0, 27, 177);
+}
+
+input[type=text] {
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 25px;
+  position:inherit;
+}
+
      
    
 </style>

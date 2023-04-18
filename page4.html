@@ -1,18 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Clean Waves</title>
+<!--Meta Tags-->
     <meta name="description" content="Ocean Conservation">
     <meta name="keyworkds" content="Myrtle Beach, Pollution, Tourism, Global, Volunteer">
     <meta name="author" content="Caroline Stokes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Clean Waves</title>
-    <link rel="stylesheet" href="style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PTS9D4NSPK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PTS9D4NSPK');
+</script>
+
+<!--Linking Style Sheet-->
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<style>
+
+  body{   
+      background-color: #dfd0ff;
+  
+  }
+  h1 {
+      padding-top: 20px;
+      text-align: center;
+      color: rgb(0, 27, 177);
+      font-size: 40px;
+  }
+  h3 {
+      padding-top: 20px;
+      text-align: left;
+      color: rgb(0, 27, 177);
+      font-size: 30px;
+      padding-left: 10px;
+  }
+  
+  h5 {
+      font-size: 20px;
+      color: rgb(0, 27, 177);
+      padding-left: 10px;
+  
+  }
+  
+  /*form*/
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #dfd0ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /*submit button*/
+  input[type=submit] {
+    width: 100%;
+    background: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7abe7e;
+  }
+  
+  /*text inside form*/
+  main {
+    border-radius: 5px;
+    background-color: #dfd0ff;
+    padding: 20px;
+    color: rgb(0, 27, 177);
+    font: bold;
+    font-size: 20px;
+  }
+     
+  </style>
 </head>
-
-
-
-<img class ="logo" src="images/logo2.png" alt="logo" id="logo">
 
 <body>
     <nav>
@@ -25,17 +101,19 @@
             
         </ul>
     </nav>
-    
+
+    <img class ="logo" src="images/logo2.png" alt="logo" id="logo">
+
     <div>
         <h1>Take Action</h1>
         <h3>Volunteering Schedule:</h3>
-        <article>- Monday-Friday 4pm-6pm</article>
-        <article>- Saturday-Sunday 1pm-2:30pm</article>
+        <h5>Monday-Friday 4pm-6pm</h5>
+        <h5>Saturday-Sunday 1pm-2:30pm</h5>
         <br> 
         <br>
         <h3>Meeting Locations:</h3>
-        <article>- Monday-Friday at <a href="https://www.google.com/maps/place/82nd+Ave+N,+Myrtle+Beach,+SC+29572/@33.7480917,-78.8095714,17z/data=!3m1!4b1!4m6!3m5!1s0x890065c408c071f7:0x2cb8da24159f3a5a!8m2!3d33.7480917!4d-78.8095714!16s%2Fg%2F1tf_1yff">82nd Ave N, Myrtle Beach, SC 29572</a></article>
-        <article>- Saturday-Sunday at <a href="https://www.google.com/maps/place/36th+Ave+N,+Myrtle+Beach,+SC+29577/@33.7149108,-78.8621961,16.32z/data=!4m6!3m5!1s0x890068bfe0bafe2b:0x8c61f80bed494092!8m2!3d33.7152547!4d-78.8596327!16s%2Fg%2F1tflyrl1">36th Ave N, Myrtle Beach, SC 29572</a></article>
+        <h5>Monday-Friday at <a href="https://www.google.com/maps/place/82nd+Ave+N,+Myrtle+Beach,+SC+29572/@33.7480917,-78.8095714,17z/data=!3m1!4b1!4m6!3m5!1s0x890065c408c071f7:0x2cb8da24159f3a5a!8m2!3d33.7480917!4d-78.8095714!16s%2Fg%2F1tf_1yff">82nd Ave N, Myrtle Beach, SC 29572</a></h5>
+        <h5>Saturday-Sunday at <a href="https://www.google.com/maps/place/36th+Ave+N,+Myrtle+Beach,+SC+29577/@33.7149108,-78.8621961,16.32z/data=!4m6!3m5!1s0x890068bfe0bafe2b:0x8c61f80bed494092!8m2!3d33.7152547!4d-78.8596327!16s%2Fg%2F1tflyrl1">36th Ave N, Myrtle Beach, SC 29572</a></h5>
         <br>
     </div>
     
@@ -65,80 +143,9 @@
         </form>
     </main>
     
-
+    <div class="footer">
+      <p>Copyright © 2023 Clean Waves. </p>
+    </div>
 
 </body>
-<div class="footer">
-    <p>Copyright © 2023 Clean Waves. </p>
-  </div>
-
-<style>
-
-body{   
-    background-color: #dfd0ff;
-
-}
-h1 {
-    padding-top: 20px;
-    text-align: center;
-    color: rgb(0, 27, 177);
-    font-size: 40px;
-}
-h3 {
-    padding-top: 20px;
-    text-align: left;
-    color: rgb(0, 27, 177);
-    font-size: 30px;
-    padding-left: 10px;
-}
-
-article, h5 {
-    font-size: 20px;
-    color: rgb(0, 27, 177);
-    padding-left: 10px;
-
-}
-
-/*form*/
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid #dfd0ff;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-/*submit button*/
-input[type=submit] {
-  width: 100%;
-  background: #45a049;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-input[type=submit]:hover {
-  background-color: #7abe7e;
-}
-
-/*text inside form*/
-main {
-  border-radius: 5px;
-  background-color: #dfd0ff;
-  padding: 20px;
-  color: rgb(0, 27, 177);
-  font: bold;
-  font-size: 20px;
-}
-  
-   
-</style>
-
 </html>

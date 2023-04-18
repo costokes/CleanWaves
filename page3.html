@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Clean Waves</title>
+<!--Meta Tags-->
     <meta name="description" content="Ocean Conservation">
     <meta name="keyworkds" content="Myrtle Beach, Pollution, Tourism, Global, Volunteer">
     <meta name="author" content="Caroline Stokes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Clean Waves</title>
-    <link rel="stylesheet" href="style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PTS9D4NSPK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PTS9D4NSPK');
+</script>
+
+<!--Linking Style Sheet-->
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<style>
+
+    body {
+        background: rgb(87, 184, 161);
+    }
+    
+    
+    h5 {
+        color: rgb(0, 27, 177);
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    /*adjustments for columns*/
+    main section {
+        display: flex;
+        padding-top: 50px;
+        padding-left: 10px;
+        width: 1200px;
+        height: 600px;
+        
+        }
+    
+    main section div{
+        background-color: #dfd0ff;
+        border-radius: 10px;
+        margin-right: 1rem;
+        flex: 1;
+        text-align: center;}
+    
+    /*title section*/
+    main section div h2{
+        background-color: rgb(106, 106, 228);
+        border-radius: 10px 10px 0 0;
+        color: white;
+        margin-top: 0;}
+    
+    main section div img {
+        border-style: double;
+        border-width: 8px;
+        border-color: rgb(106, 106, 228);;
+        display: block;
+        margin: auto;}
+     
+    
+    </style>
 </head>
 
-
-<header>
-    <a class="logo" href="images/logo1.png"></a>
-</header>
 
 <body>
     <nav>
@@ -25,10 +81,10 @@
             <li><a href="page5.html">About Me</a></li>
         </ul>
     </nav>
-
+   
     <img class ="logo" src="images/logo2.png" alt="logo" id="logo">
 
-    <main role="main">
+    <main>
     <section>
         <div>
             <h2>Marine Life</h2>
@@ -36,7 +92,7 @@
             <a href="#"><img src="images/marinelife1.jpeg" width="200" height="133" alt="Rain water collector"></a>
             <br>
             <br>
-              <article>Marine life is essential to the ecosystem and by reducing pollution, marine life can be preserved. The most visible impacts of ocean pollution consist of plastic debris and colored water pollution. </article>
+              <h5>Marine life is essential to the ecosystem and by reducing pollution, marine life can be preserved. The most visible impacts of ocean pollution consist of plastic debris and colored water pollution. </h5>
             </div>
             
             <div>
@@ -45,7 +101,7 @@
             <a href="#"><img src="images/crowdedbeach.jpeg" width="200" height="133" alt="Compost bin"> </a>
             <br>
             <br>
-              <article>Myrtle Beach strethces to around 60 miles of coastline and it is difficult to keep the beaches clean for marine life with that much space being polluted, especially during the summer. In 2021, 52 tons of trash was removed from Myrtle Beach after Fourth of July. Waste left behind from tourists can harm and even kill fish, dolphins, sea turtles and many other aquatic animals.</article>
+              <h5>Myrtle Beach stretches to around 60 miles of coastline and it is difficult to keep the beaches clean for marine life with that much space being polluted, especially during the summer. In 2021, 52 tons of trash was removed from Myrtle Beach after Fourth of July. Waste left behind from tourists can harm and even kill fish, dolphins, sea turtles and many other aquatic animals.</h5>
             </div>
             
             <div>
@@ -54,66 +110,16 @@
             <a href="#"><img src="images/cleanup.jpeg" width="200" height="133" alt="Rooftop solar panels"></a>
             <br>
             <br>
-              <article>If you are interested in helping solve this issue of pollution and helping preserve marine life, please feel free to join our volunteering community! Click the "Take Action" button above.</article>
+              <h5>If you are interested in helping solve this issue of pollution and helping preserve marine life, please feel free to join our volunteering community! Click the "Take Action" button above.</h5>
             </div>
 
     </section>
     </main>
     
+    <div class="footer">
+        <p>Copyright © 2023 Clean Waves. </p>
+      </div>
     
 </body>
-<div class="footer">
-    <p>Copyright © 2023 Clean Waves. </p>
-  </div>
-
-<style>
-
-body {
-    background: rgb(117, 206, 186);
-}
-
-
-article {
-    color: rgb(0, 27, 177);
-    font-family: Trebuchet MS;
-    font-size: 18px;
-    
-}
-main section {
-    display: flex;
-    padding-top: 50px;
-    padding-left: 70px;
-    width: 1260px;
-    height: 550px;
-    
-    }
-
-main section div{
-    background-color: #dfd0ff;
-    border-radius: 10px;
-    margin-right: 1rem;
-    flex: 1;
-    text-align: center;}
-
-section div:last-child{
-    margin-right: 1;
-    margin-left: 2;}
-
-/*title section*/
-main section div h2{
-    background-color: rgb(106, 106, 228);
-    border-radius: 10px 10px 0 0;
-    color: white;
-    margin-top: 0;}
-
-main section div img {
-    border-style: double;
-    border-width: 8px;
-    border-color: rgb(106, 106, 228);;
-    display: block;
-    margin: auto;}
- 
-
-</style>
 
 </html>

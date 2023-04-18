@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Clean Waves</title>
+<!--Meta Tags-->
     <meta name="description" content="Ocean Conservation">
     <meta name="keyworkds" content="Myrtle Beach, Pollution, Tourism, Global, Volunteer">
     <meta name="author" content="Caroline Stokes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Clean Waves</title>
-    <link rel="stylesheet" href="style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PTS9D4NSPK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PTS9D4NSPK');
+</script>
+
+<!--Linking Style Sheet-->
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<style>
+    a {
+        background-color: rgb(106, 106, 228);
+        font-size: 20px;
+    
+    }
+    
+    body {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.432)), url("images/myrtle1.jpeg"); 
+        background-color: #cccccc;
+        
+    }
+    
+    #col1 {
+        padding-top: 25px;
+        height: 50px;
+        
+        width: 50%;
+        margin: 0 auto;}
+    
+    #col2 {
+        padding-top: 25px;
+        width: 50%;
+        margin: 0 auto;}
+    
+    .column {
+        width: 100%;
+        height: 700px;
+        float: left;
+        }
+        
+    h1 {
+      
+        padding-top: 20px;
+        text-align: center;
+        color: rgb(0, 27, 177);
+        font-size: 40px;
+        
+    
+    }
+    h2 {
+        text-align: center;
+        color: rgb(0, 27, 177);
+        font-size: 27px;
+        font: bold;
+        line-height: .8cm;
+        border: 7px double rgb(0, 27, 177);
+        background: white;
+        margin: 5px;
+        padding: 7px;
+        
+        
+    
+    }
+    h5 {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 20px;
+        color: rgb(0, 27, 177);
+        text-align: center;
+        
+    }
+    
+    </style>
 </head>
 
 
-<img class ="logo" src="images/logo2.png" alt="logo" id="logo">
-
-
-
 <body>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -26,100 +100,35 @@
         </ul>
     </nav>
 
+    <img class ="logo" src="images/logo2.png" alt="logo" id="logo">
+
     <h1>The Effect of Ocean Pollution in Myrtle Beach</h1>
 
-    <div id="mainContent">
+    <div>
         <div id="col1" class="column">
-            <article>
-                <h2>Myrtle Beach</h2>
+            <h2>Myrtle Beach</h2>
             <br>
+            <h5>
                 Myrtle Beach was claimed as one of the worst swimming areas in 2020. This is because the water on 70 out of 82 days was tested and Myrtle Beach exceeded the EPA fecal contamination standard, meaning 85% of tourist or beach goers swimming in the water were likely to get sick. The main affect of pollution is from stormwater runoff because water runs off streets picking up pollutants and pesticides which drains into nearby streams, eventually making its way to the ocean. 
-            </article>
+            </h5>
             
         </div>
     </div>
 
-    <div id="otherContent">
+    <div>
         <div id="col2" class="column">
-            <article>
-                <h2>Important</h2>
-                <br>
+            <h2>Important</h2>
+            <br>
+            <h5>
                 If you are visiting Myrtle Beach, here is an important note to take away from the information. When walking along the beach or getting ready to take a swim, stray away from areas close or next to stormwater drains. These drains contain sewage runoff and could potentially affect your health if you were to swim close to them. They also can create a small body of water around them which could be hard to catch if it reaches a certain width. 
-            </article>
+            </h5>
         </div>
 
     </div>
 
+    <div class="footer">
+        <p>Copyright © 2023 Clean Waves. </p>
+    </div>
+
 </body>
-<div class="footer">
-    <p>Copyright © 2023 Clean Waves. </p>
-  </div>
-
-
-
-<style>
-a {
-    background-color: rgb(106, 106, 228);
-    font-size: 20px;
-
-}
-
-body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.432)), url("images/myrtle1.jpeg"); 
-    background-color: #cccccc;
-    opacity: 10;
-    
-}
-
-#col1 {
-    padding-top: 25px;
-    height: 50px;
-    
-    width: 50%;
-    margin: 0 auto;}
-
-#col2 {
-    padding-top: 25px;
-    width: 50%;
-    margin: 0 auto;}
-
-.column {
-    width: 100%;
-    height: 700px;
-    float: left;
-    }
-    
-h1 {
-  
-    padding-top: 20px;
-    text-align: center;
-    color: rgb(0, 27, 177);
-    font-size: 40px;
-    
-
-}
-h2 {
-    text-align: center;
-    color: rgb(0, 27, 177);
-    font-size: 27px;
-    font: bold;
-    line-height: .8cm;
-    border: 7px double rgb(0, 27, 177);
-    background: white;
-    margin: 5px;
-    padding: 7px;
-    
-    
-
-}
-article {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 20px;
-    color: rgb(0, 27, 177);
-    text-align: center;
-    
-}
-
-</style>
 </html>
